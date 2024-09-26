@@ -25,13 +25,13 @@
  *************************************************************************************************************************************8
 
  */
-define(['N/format', 'N/record', 'N/search'],
+define([ 'N/record', 'N/search'],
     /**
-     * @param{format} format
+     * 
      * @param{record} record
      * @param{search} search
      */
-    function (format, record, search) {
+    function (record, search) {
         /**
          * Function to be executed when field is changed.
          *
